@@ -1,0 +1,29 @@
+{
+  "name": "plane-feed",
+  "version": "1.0.0",
+  "description": "aggregate plane routes from realtime ads-b data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morganherlocker/plane-feed.git"
+  },
+  "keywords": [
+    "ads-b",
+    "realtime",
+    "plane",
+    "transit"
+  ],
+  "author": "morganherlocker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morganherlocker/plane-feed/issues"
+  },
+  "homepage": "https://github.com/morganherlocker/plane-feed",
+  "dependencies": {
+    "moment": "^2.10.3",
+    "turf": "^2.0.2"
+  }
+}
