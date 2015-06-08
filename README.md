@@ -16,4 +16,4 @@ npm install
 dump1090 | node index.js
 ```
 
-This will create hourly geojson files with aggregated route data in `./out`.
+This will create hourly geojson files with aggregated route data in `./out`. Each LineString has properties containing arrays of altitudes (feet) and times (HH:MM:SS) corresponding to each coordinate.
