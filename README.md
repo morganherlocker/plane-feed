@@ -4,7 +4,7 @@ Aggregate plane routes from realtime [ads-b](http://en.wikipedia.org/wiki/Automa
 
 ![](http://i.imgur.com/6Y0Q0fa.png)
 
-##install
+## install
 
 ```
 git clone git@github.com:morganherlocker/plane-feed.git
@@ -12,7 +12,7 @@ cd plane-feed
 npm install
 ```
 
-##run
+## run
 
 ```
 dump1090 | node index.js
